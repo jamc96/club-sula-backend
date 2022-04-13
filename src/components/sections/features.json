@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "features",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.option"
+    }
+  }
+}

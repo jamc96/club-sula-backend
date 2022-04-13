@@ -6,6 +6,7 @@
 
 const { createCoreController } = require("@strapi/strapi").factories;
 const { getFullPopulateObject } = require("../../../utils/helpers");
+// module.exports = createCoreController("api::page.page");
 
 module.exports = createCoreController("api::page.page", ({ strapi }) => ({
   async find(ctx) {

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "phone-volume"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button-link"
+    }
+  }
+}

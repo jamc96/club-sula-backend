@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_options",
+  "info": {
+    "displayName": "option",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

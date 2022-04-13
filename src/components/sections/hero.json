@@ -28,6 +28,11 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.nav-bar"
     }
   }
 }

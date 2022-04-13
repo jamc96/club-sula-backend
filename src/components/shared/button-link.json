@@ -2,7 +2,8 @@
   "collectionName": "components_shared_button_links",
   "info": {
     "displayName": "buttonLink",
-    "icon": "external-link-square-alt"
+    "icon": "external-link-square-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,13 +20,24 @@
       "type": "boolean",
       "default": false
     },
-    "type": {
+    "appearance": {
       "type": "enumeration",
       "enum": [
         "primary",
         "secondary"
       ],
       "default": "primary"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "whatsapp",
+        "phone",
+        "email"
+      ],
+      "default": "link",
+      "required": true
     }
   }
 }
