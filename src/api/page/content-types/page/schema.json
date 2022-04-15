@@ -45,10 +45,11 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero",
-        "sections.features",
         "sections.activities",
-        "sections.cta"
+        "sections.cta",
+        "sections.features",
+        "sections.hero",
+        "sections.gallery"
       ],
       "pluginOptions": {
         "i18n": {

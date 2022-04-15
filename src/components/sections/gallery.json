@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "albums": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::album.album"
+    }
+  }
+}
